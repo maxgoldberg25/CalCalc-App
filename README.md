@@ -1,89 +1,93 @@
-CalCalc IOS App Description
+CalcCalc: Your Personalized Calorie Tracking Companion
 -----------------------
 [![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
-[![License][license-image]][license-url]
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# Product Name
+
+
 <br />
 <p align="center">
   <a href="https://github.com/alexanderritik/Best-README-Template">
-    <img src="logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/user-attachments/assets/32ccd13b-b434-4354-88b7-b69b5af422e8" alt="Logo" width="290">
   </a>
+
+## About
+
   <p align="center">
-    One to two paragraph statement about your product and what it does.
+
+A Comprehensive Tool for Health Enthusiasts
+
+CalcCalc is more than just a calorie tracker; it's like having a personal nutritionist and fitness coach in your pocket. The app calculates individual Basal Metabolic Rates (BMR) and continuously updates them based on physical activities and personal goals. Whether you aim to lose, maintain, or gain weight, CalcCalc adapts to your unique needs, offering actionable insights and recommendations. The integration of physical activity tracking ensures that every calorie burned is accounted for, providing a holistic view of your progress.
+
+Tailored for University of Rochester Students
+
+While CalcCalc can benefit anyone pursuing health goals, it specifically caters to the athletic college students at the University of Rochester. These students, often juggling multiple responsibilities, need a quick and efficient way to log workouts and meals. By understanding their unique challenges through targeted user requirement gathering and analysis, CalcCalc is designed to fit seamlessly into their busy schedules. The app’s reminders to log meals and workouts, combined with its personalized recommendations, make it an invaluable tool for students striving to manage their weight amidst academic and social commitments.
+
+Robust Technology and User-Centric Design
+
+Developed for the iOS platform using SwiftUI and designed with Figma, CalcCalc offers an intuitive and user-friendly interface. The back-end leverages SQLite and Core Data for secure data storage and efficient database management. Users can easily enter their basic information during sign-up to receive personalized calorie needs, set and track their health goals, and receive timely reminders to log their activities. The app’s AI-powered food recognition feature further enhances the user experience by simplifying the logging process.
+
+Evaluating User Satisfaction and Effectiveness
+
+To ensure CalcCalc meets the needs of its target users, extensive evaluation was conducted with a diverse group of University of Rochester students. Tasks designed to assess calorie tracking accuracy, personalized goal management, and interface satisfaction provided valuable insights. Participants reported high satisfaction with the app's ability to log and calculate calorie intake accurately, set and adapt health goals efficiently, and navigate its intuitive interface. These evaluations confirmed CalcCalc's effectiveness in helping users achieve their fitness objectives.
+
   </p>
+  
+
+## Demo
+
+  <p align="center">
+<img src= "https://github.com/user-attachments/assets/1528639e-b168-4bc3-a97b-8c2bcf5d407a" width="300" >
+
 </p>
 
-<p align="row">
-<img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" >
-<img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" >
-</p>
+## App Features
 
-## Features
+- [x] Personalized calorie tracking based on individual Basal Metabolic Rates (BMR)
+- [x] Integrated physical activity tracking to monitor calorie expenditure
+- [x] Timely reminders to log meals and workouts
+- [x] User login and secure database management
+- [x] Comprehensive dietary recommendations and goal management
 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5
+
+
+
+
+
+
 
 ## Requirements
 
-- iOS 8.0+
-- Xcode 10.0
+- iOS 14.0+
+- Xcode 14.0
 
 ## Installation
 
-#### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install `YourLibrary` by adding it to your `Podfile`:
 
-```ruby
-platform :ios, '8.0'
-use_frameworks!
-pod 'YourLibrary'
+
+Clone the Repository
+Open your terminal and run the following command to clone the repository:
+``` swift
+git clone https://github.com/yourUsername/CalcCalc.git
 ```
 
-To get the full benefits import `YourLibrary` wherever you import UIKit
+
+Navigate to the Project Directory
+Change your directory to the cloned repository:
 
 ``` swift
-import UIKit
-import YourLibrary
-```
-#### Carthage
-Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/YourLibrary.framework` to an iOS project.
-
-```
-github "yourUsername/yourlibrary"
-```
-#### Manually
-1. Download and drop ```YourLibrary.swift``` in your project.  
-2. Congratulations!  
-
-## Usage example
-
-```swift
-import EZSwiftExtensions
-ez.detectScreenShot { () -> () in
-    print("User took a screen shot")
-}
+cd CalcCalc
 ```
 
-## Contribute
+Open the Project in Xcode
+Open the Xcode project or workspace file:
 
-We would love you for the contribution to **YourLibraryName**, check the ``LICENSE`` file for more info.
+```
+open CalcCalc.xcodeproj
+```
 
-## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
 [swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
 [swift-url]: https://swift.org/
@@ -93,18 +97,5 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
 [codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
-
-
-Description
-
-Please, go to [Example link](http://iosboilerplate.com/) for more documentation and further information.
-
-Some screenshots:
-
-<img src="https://github.com/user-attachments/assets/cd83d70b-3fc6-40b0-9887-4c576bc5ed9e" alt="CalSS5" width="400"/>
-<img src="https://github.com/user-attachments/assets/3ab4e987-a797-4d99-b4f9-a50e3c259856" alt="CalSS4" width="400"/>
-<img src="https://github.com/user-attachments/assets/24400406-9926-4cb5-9cc5-8384b196e386" alt="CalSS3" width="400"/>
-<img src="https://github.com/user-attachments/assets/c55da8e5-f8d1-40e6-8596-02462b8b170b" alt="CalSS2" width="400"/>
-<img src="https://github.com/user-attachments/assets/cac56ae5-f11d-4882-8fda-f75e884f179c" alt="CalSS1" width="400"/>
 
 
